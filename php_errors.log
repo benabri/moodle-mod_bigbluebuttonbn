@@ -520,3 +520,11 @@ Error code: invalidqueryparam
 * line 156 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
 * line 177 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_create_meeting_array()
 
+[24-Nov-2020 08:29:33 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 08:29:33 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 08:36:17 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 08:36:17 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 08:36:26 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 08:36:26 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 08:46:10 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 08:46:10 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247

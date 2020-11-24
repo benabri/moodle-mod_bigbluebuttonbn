@@ -1258,7 +1258,7 @@ function bigbluebuttonbn_participant_joined($meetingid, $ismoderator) {
  *
  * @return array
  */
-function bigbluebuttonbn_get_meeting_info($meetingid, $updatecache = tr) {
+function bigbluebuttonbn_get_meeting_info($meetingid, $updatecache = false) {
     $cachettl = (int) \mod_bigbluebuttonbn\locallib\config::get('waitformoderator_cache_ttl');
     $cache = cache::make_from_params(cache_store::MODE_APPLICATION, 'mod_bigbluebuttonbn', 'meetings_cache');
     $result = $cache->get($meetingid);
