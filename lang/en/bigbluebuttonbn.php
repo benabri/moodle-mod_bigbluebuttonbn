@@ -566,3 +566,6 @@ $string['view_mobile_message_groups_not_supported'] = 'This instance is enable t
 
 $string['config_server_url_record'] = 'RECORD BigBlueButton Server URL';
 $string['config_server_url_record_description'] = 'RECORD The URL of your BigBlueButton server must end with /bigbluebutton/. (This default URL is for a BigBlueButton server provided by Blindside Networks that you can use for testing.)';
+
+$string['config_shared_secret_record'] = 'RECORD BigBlueButton Shared Secret';
+$string['config_shared_secret_record_description'] = 'RECORD The security salt of your BigBlueButton server.  (This default salt is for a BigBlueButton server provided by Blindside Networks that you can use for testing.)';

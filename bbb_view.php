@@ -27,6 +27,7 @@ require_once(dirname(dirname(dirname(__FILE__))).'/config.php');
 require_once(dirname(__FILE__).'/locallib.php');
 
 global $SESSION;
+//global $DB; //benabri
 
 $action = required_param('action', PARAM_TEXT);
 $id = optional_param('id', 0, PARAM_INT);
@@ -49,6 +50,8 @@ $cm = $bbbviewinstance['cm'];
 $course = $bbbviewinstance['course'];
 $bigbluebuttonbn = $bbbviewinstance['bigbluebuttonbn'];
 $context = context_module::instance($cm->id);
+
+$alt = (int)($course->id) % 2;
 
 require_login($course, true, $cm);
 
@@ -158,7 +161,7 @@ switch (strtolower($action)) {
         // See if the session is in progress.
         if (bigbluebuttonbn_is_meeting_running($bbbsession['meetingid'])) {
             // Since the meeting is already running, we just join the session.
-            bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin);
+            bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin, $alt);
             break;
         }
         // If user is not administrator nor moderator (user is steudent) and waiting is required.
@@ -167,11 +170,15 @@ switch (strtolower($action)) {
             break;
         }
         // As the meeting doesn't exist, try to create it.
+        //$alt = (int)($course->id) % 2;
+        $debug_message = "louloulou du cours ".(int)($course->id)." avec alt = ".$alt;
+        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
         $response = bigbluebuttonbn_get_create_meeting_array(
             bigbluebuttonbn_bbb_view_create_meeting_data($bbbsession),
             bigbluebuttonbn_bbb_view_create_meeting_metadata($bbbsession),
             $bbbsession['presentation']['name'],
-            $bbbsession['presentation']['url']
+            $bbbsession['presentation']['url'], 
+            $alt
         );
         if (empty($response)) {
             // The server is unreachable.
@@ -210,7 +217,7 @@ switch (strtolower($action)) {
         $meta = '{"record":'.($bbbsession['record'] ? 'true' : 'false').'}';
         bigbluebuttonbn_log($bbbsession['bigbluebuttonbn'], BIGBLUEBUTTONBN_LOG_EVENT_CREATE, $overrides, $meta);
         // Since the meeting is already running, we just join the session.
-        bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin);
+        bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin, $alt);
         break;
     case 'play':
         $href = bigbluebuttonbn_bbb_view_playback_href($href, $mid, $rid, $rtype);
@@ -404,7 +411,8 @@ function bigbluebuttonbn_bbb_view_create_meeting_metadata(&$bbbsession) {
  * @param object   $bigbluebuttonbn
  * @param integer  $origin
  */
-function bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin = 0) {
+function bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin = 0, $alt = 0) {
+    global $DB;
     // Update the cache.
     $meetinginfo = bigbluebuttonbn_get_meeting_info($bbbsession['meetingid'], BIGBLUEBUTTONBN_UPDATE_CACHE);
     if ($bbbsession['userlimit'] > 0 && intval($meetinginfo['participantCount']) >= $bbbsession['userlimit']) {
@@ -417,8 +425,15 @@ function bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $o
     if ($bbbsession['administrator'] || $bbbsession['moderator']) {
         $password = $bbbsession['modPW'];
     }
+    $debug_message = "AVANT---"."alt-".$alt;
+        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+        
     $joinurl = bigbluebuttonbn_get_join_url($bbbsession['meetingid'], $bbbsession['username'],
-        $password, $bbbsession['logoutURL'], null, $bbbsession['userID'], $bbbsession['clienttype']);
+        $password, $bbbsession['logoutURL'], null, $bbbsession['userID'], $bbbsession['clienttype'], $alt);
+
+
+    $debug_message = "APRES---"."alt-".$alt;
+        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
     // Moodle event logger: Create an event for meeting joined.
     bigbluebuttonbn_event_log(\mod_bigbluebuttonbn\event\events::$events['meeting_join'], $bigbluebuttonbn);
     // Internal logger: Instert a record with the meeting created.

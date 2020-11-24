@@ -109,8 +109,14 @@ function bigbluebuttonbn_get_join_url(
     $logouturl,
     $configtoken = null,
     $userid = null,
-    $clienttype = BIGBLUEBUTTON_CLIENTTYPE_FLASH
+    $clienttype = BIGBLUEBUTTON_CLIENTTYPE_FLASH,
+    $alt = 0
 ) {
+        global $DB;
+
+    $debug_message = "bigbluebuttonbn_get_join_url---"."alt-".$alt;
+        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+   
     $data = ['meetingID' => $meetingid,
         'fullName' => $username,
         'password' => $pw,
@@ -126,7 +132,7 @@ function bigbluebuttonbn_get_join_url(
     if (!is_null($userid)) {
         $data['userID'] = $userid;
     }
-    return \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('join', $data);
+    return \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('join', $data, [], $alt);
 }
 
 /**
@@ -139,8 +145,19 @@ function bigbluebuttonbn_get_join_url(
  *
  * @return array
  */
-function bigbluebuttonbn_get_create_meeting_array($data, $metadata = array(), $pname = null, $purl = null) {
-    $createmeetingurl = \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('create', $data, $metadata);
+//benbri : on rajoute le parametre alt dans la def de la fonction
+function bigbluebuttonbn_get_create_meeting_array($data, $metadata = array(), $pname = null, $purl = null, $alt = 0) {
+    global $DB;
+    
+    //$debug_message = "create_meeting_array:".$alt;
+    //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+
+    
+    $createmeetingurl = \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('create', $data, $metadata, $alt);
+    
+    //$debug_message = "create_meeting_array APRES meetingurl:".$createmeetingurl;
+    //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+
     $method = 'GET';
     $payload = null;
     if (!is_null($pname) && !is_null($purl)) {
@@ -168,9 +185,16 @@ function bigbluebuttonbn_get_create_meeting_array($data, $metadata = array(), $p
  * @return array
  */
 function bigbluebuttonbn_get_meeting_info_array($meetingid) {
+    global $DB;
+    $debug_message = "meeting_info_array ".$meetingid;
+    $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+
     $xml = bigbluebuttonbn_wrap_xml_load_file(
         \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('getMeetingInfo', ['meetingID' => $meetingid])
     );
+    $debug_message = "meeting_info_array ".\mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('getMeetingInfo', ['meetingID' => $meetingid]);
+    $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+
     if ($xml && $xml->returncode == 'SUCCESS' && empty($xml->messageKey)) {
         // Meeting info was returned.
         return array('returncode' => $xml->returncode,
@@ -536,6 +560,7 @@ function bigbluebuttonbn_get_server_version() {
     }
     return null;
 }
+
 
 /**
  * Perform api request on BBB and wraps the response in an XML object
@@ -1233,7 +1258,7 @@ function bigbluebuttonbn_participant_joined($meetingid, $ismoderator) {
  *
  * @return array
  */
-function bigbluebuttonbn_get_meeting_info($meetingid, $updatecache = false) {
+function bigbluebuttonbn_get_meeting_info($meetingid, $updatecache = tr) {
     $cachettl = (int) \mod_bigbluebuttonbn\locallib\config::get('waitformoderator_cache_ttl');
     $cache = cache::make_from_params(cache_store::MODE_APPLICATION, 'mod_bigbluebuttonbn', 'meetings_cache');
     $result = $cache->get($meetingid);
@@ -2693,6 +2718,10 @@ function bigbluebuttonbn_settings_general(&$renderer) {
         $renderer->render_group_element(
             'shared_secret',
             $renderer->render_group_element_text('shared_secret', BIGBLUEBUTTONBN_DEFAULT_SHARED_SECRET)
+        );
+        $renderer->render_group_element(
+            'shared_secret_record',
+            $renderer->render_group_element_text('shared_secret_record', BIGBLUEBUTTONBN_DEFAULT_SHARED_SECRET)
         );
     }
 }
