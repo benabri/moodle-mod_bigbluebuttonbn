@@ -138,9 +138,13 @@ switch (strtolower($action)) {
             );
         $accesses = $DB->get_records_select('bigbluebuttonbn_logs', $select, $params, 'id ASC', 'id, meta', 1);
         $lastaccess = end($accesses);
-        $lastaccess = json_decode($lastaccess->meta);
+        
+        //benabri : l'origine est toujours la meme pour nous donc on la met à 0 si on trouve rien dans bigbluebuttonbn_logs
+        $lastaccess_origin = !is_null($lastaccess) ? json_decode($lastaccess->meta)->origin : 0;
+          
+
         // If the user acceded from Timeline it should be redirected to the Dashboard.
-        if (isset($lastaccess->origin) && $lastaccess->origin == BIGBLUEBUTTON_ORIGIN_TIMELINE) {
+        if (isset($lastaccess_origin) && $lastaccess_origin == BIGBLUEBUTTON_ORIGIN_TIMELINE) {
             redirect($CFG->wwwroot . '/my/');
         }
         // Close the tab or window where BBB was opened.
@@ -171,8 +175,8 @@ switch (strtolower($action)) {
         }
         // As the meeting doesn't exist, try to create it.
         //$alt = (int)($course->id) % 2;
-        $debug_message = "louloulou du cours ".(int)($course->id)." avec alt = ".$alt;
-        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+        //$debug_message = "louloulou du cours ".(int)($course->id)." avec alt = ".$alt;
+        //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
         $response = bigbluebuttonbn_get_create_meeting_array(
             bigbluebuttonbn_bbb_view_create_meeting_data($bbbsession),
             bigbluebuttonbn_bbb_view_create_meeting_metadata($bbbsession),
@@ -412,7 +416,7 @@ function bigbluebuttonbn_bbb_view_create_meeting_metadata(&$bbbsession) {
  * @param integer  $origin
  */
 function bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin = 0, $alt = 0) {
-    global $DB;
+    //global $DB;
     // Update the cache.
     $meetinginfo = bigbluebuttonbn_get_meeting_info($bbbsession['meetingid'], BIGBLUEBUTTONBN_UPDATE_CACHE);
     if ($bbbsession['userlimit'] > 0 && intval($meetinginfo['participantCount']) >= $bbbsession['userlimit']) {
@@ -425,15 +429,15 @@ function bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $o
     if ($bbbsession['administrator'] || $bbbsession['moderator']) {
         $password = $bbbsession['modPW'];
     }
-    $debug_message = "AVANT---"."alt-".$alt;
-        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+    //$debug_message = "AVANT---"."alt-".$alt;
+    //    $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
         
     $joinurl = bigbluebuttonbn_get_join_url($bbbsession['meetingid'], $bbbsession['username'],
         $password, $bbbsession['logoutURL'], null, $bbbsession['userID'], $bbbsession['clienttype'], $alt);
 
 
-    $debug_message = "APRES---"."alt-".$alt;
-        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+    //$debug_message = "APRES---"."alt-".$alt;
+    //    $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
     // Moodle event logger: Create an event for meeting joined.
     bigbluebuttonbn_event_log(\mod_bigbluebuttonbn\event\events::$events['meeting_join'], $bigbluebuttonbn);
     // Internal logger: Instert a record with the meeting created.

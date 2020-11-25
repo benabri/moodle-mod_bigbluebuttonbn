@@ -528,3 +528,76 @@ Error code: invalidqueryparam
 [24-Nov-2020 08:36:26 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
 [24-Nov-2020 08:46:10 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
 [24-Nov-2020 08:46:10 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 09:08:00 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 09:08:00 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 15:29:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:29:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 15:29:35 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:29:35 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 15:32:25 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:32:25 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 15:32:59 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:32:59 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 15:35:37 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:35:47 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:36:33 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:39:02 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:40:25 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:40:25 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:41:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:42:43 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:43:15 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:43:33 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:43:33 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 15:45:49 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
+[24-Nov-2020 15:45:50 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
+[24-Nov-2020 15:45:50 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
+[24-Nov-2020 15:45:52 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
+[24-Nov-2020 15:46:00 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
+[24-Nov-2020 15:46:06 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:46:07 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
+[24-Nov-2020 15:46:16 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
+[24-Nov-2020 15:46:17 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
+[24-Nov-2020 15:47:10 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[24-Nov-2020 15:47:10 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[24-Nov-2020 15:53:18 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:11:38 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:11:38 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 08:19:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:19:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 08:24:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
+[25-Nov-2020 08:24:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
+[25-Nov-2020 08:25:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
+[25-Nov-2020 08:26:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
+[25-Nov-2020 08:26:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
+[25-Nov-2020 08:26:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
+[25-Nov-2020 08:26:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
+[25-Nov-2020 08:27:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
+[25-Nov-2020 08:27:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
+[25-Nov-2020 08:29:18 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:29:18 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 08:30:15 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:30:15 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 08:30:50 Europe/Berlin] Default exception handler: Erreur de programmation détectée. Ceci doit être corrigé par un programmeur : PHP catchable fatal error Debug: Object of class stdClass could not be converted to string
+Error code: codingerror
+* line 424 of /lib/setuplib.php: coding_exception thrown
+* line 143 of /mod/bigbluebuttonbn/bbb_view.php: call to default_error_handler()
+
+[25-Nov-2020 08:32:01 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:32:01 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 08:37:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 149
+[25-Nov-2020 08:38:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'origin' (T_STRING), expecting ')' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 149
+[25-Nov-2020 08:38:56 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:38:56 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 08:39:22 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:39:22 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 08:44:23 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:44:23 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 08:47:45 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:47:45 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 08:48:19 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 147
+[25-Nov-2020 08:48:19 Europe/Berlin] PHP Notice:  Trying to get property 'origin' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 147
+[25-Nov-2020 08:49:30 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:49:30 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 08:56:58 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 08:56:58 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247

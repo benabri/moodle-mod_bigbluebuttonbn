@@ -49,15 +49,15 @@ class bigbluebutton {
      */
     // benabri : on rajoute le parametre alt à la fin comme ca on est certain que les appels à la fonction qui n'incluent pas le parametre ne feront rien planter
     public static function action_url($action = '', $data = array(), $metadata = array(), $alt = 0) {
-            global $DB;
+            //global $DB;
             //piste meilleure : choper cours->id d'apres $data["sessionid"] qui est dans la table mdl_bigbluebuttonbn
             // ou bien passer par la global $COURSE
-        $debug_message = "action_url: action-".$action."---"."alt-".$alt;
-        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+        //$debug_message = "action_url: action-".$action."---"."alt-".$alt;
+        //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
         
         $baseurl = self::sanitized_url($alt) . $action . '?';
-        $debug_message = "APRES sanitized_url: action-".$action."---"."alt-".$alt;
-        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+        //$debug_message = "APRES sanitized_url: action-".$action."---"."alt-".$alt;
+        //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
         
 
         
@@ -84,10 +84,10 @@ class bigbluebutton {
      * @return string
      */
     public static function sanitized_url($alt=0) {
-        global $COURSE;
-        global $DB;
-        $debug_message = "sanitized_url: cours-".$COURSE->id;
-        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+        //global $COURSE;
+        //global $DB;
+        //$debug_message = "sanitized_url: cours-".$COURSE->id;
+        //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
 
         $serverurl = (!$alt) ? trim(config::get('server_url')) : trim(config::get('server_url_record'));
         if (substr($serverurl, -1) == '/') {

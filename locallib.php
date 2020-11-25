@@ -112,10 +112,10 @@ function bigbluebuttonbn_get_join_url(
     $clienttype = BIGBLUEBUTTON_CLIENTTYPE_FLASH,
     $alt = 0
 ) {
-        global $DB;
+    //    global $DB;
 
-    $debug_message = "bigbluebuttonbn_get_join_url---"."alt-".$alt;
-        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+    //$debug_message = "bigbluebuttonbn_get_join_url---"."alt-".$alt;
+    //    $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
    
     $data = ['meetingID' => $meetingid,
         'fullName' => $username,
@@ -147,7 +147,7 @@ function bigbluebuttonbn_get_join_url(
  */
 //benbri : on rajoute le parametre alt dans la def de la fonction
 function bigbluebuttonbn_get_create_meeting_array($data, $metadata = array(), $pname = null, $purl = null, $alt = 0) {
-    global $DB;
+    //global $DB;
     
     //$debug_message = "create_meeting_array:".$alt;
     //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
@@ -185,15 +185,15 @@ function bigbluebuttonbn_get_create_meeting_array($data, $metadata = array(), $p
  * @return array
  */
 function bigbluebuttonbn_get_meeting_info_array($meetingid) {
-    global $DB;
-    $debug_message = "meeting_info_array ".$meetingid;
-    $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+    //global $DB;
+    //$debug_message = "meeting_info_array ".$meetingid;
+    //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
 
     $xml = bigbluebuttonbn_wrap_xml_load_file(
         \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('getMeetingInfo', ['meetingID' => $meetingid])
     );
-    $debug_message = "meeting_info_array ".\mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('getMeetingInfo', ['meetingID' => $meetingid]);
-    $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+    //$debug_message = "meeting_info_array ".\mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('getMeetingInfo', ['meetingID' => $meetingid]);
+    //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
 
     if ($xml && $xml->returncode == 'SUCCESS' && empty($xml->messageKey)) {
         // Meeting info was returned.
