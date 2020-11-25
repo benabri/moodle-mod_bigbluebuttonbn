@@ -84,12 +84,12 @@ class bigbluebutton {
      * @return string
      */
     public static function sanitized_url($alt=0) {
-        //global $COURSE;
+        global $BBBSERVER_INDEX;
         //global $DB;
         //$debug_message = "sanitized_url: cours-".$COURSE->id;
         //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
-
-        $serverurl = (!$alt) ? trim(config::get('server_url')) : trim(config::get('server_url_record'));
+        
+        $serverurl = trim(config::get(BBB_SERVERS[$BBBSERVER_INDEX]));
         if (substr($serverurl, -1) == '/') {
             $serverurl = rtrim($serverurl, '/');
         }
@@ -115,7 +115,8 @@ class bigbluebutton {
      * @return string
      */
     public static function root() {
-        $pserverurl = parse_url(trim(config::get('server_url')));
+        global $BBBSERVER_INDEX;
+        $pserverurl = parse_url(trim(config::get(BBB_SERVERS[$BBBSERVER_INDEX])));
         $pserverurlport = "";
         if (isset($pserverurl['port'])) {
             $pserverurlport = ":" . $pserverurl['port'];

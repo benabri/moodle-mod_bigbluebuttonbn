@@ -601,3 +601,48 @@ Error code: codingerror
 [25-Nov-2020 08:49:30 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
 [25-Nov-2020 08:56:58 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
 [25-Nov-2020 08:56:58 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 16:53:47 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 16:53:47 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 17:00:51 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 17:00:51 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 17:11:08 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
+[25-Nov-2020 17:11:08 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
+[25-Nov-2020 20:11:32 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' Debug: 
+Error code: generalexceptionmessage
+* line 44 of /mod/bigbluebuttonbn/locallib.php: ParseError thrown
+
+[25-Nov-2020 20:12:37 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected '$serverurl' (T_VARIABLE) Debug: 
+Error code: generalexceptionmessage
+* line 92 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
+* line ? of unknownfile: call to core_component::classloader()
+* line 545 of /mod/bigbluebuttonbn/locallib.php: call to spl_autoload_call()
+* line 123 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_end_meeting()
+* line 95 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_end()
+
+[25-Nov-2020 20:13:13 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected '$serverurl' (T_VARIABLE) Debug: 
+Error code: generalexceptionmessage
+* line 92 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
+* line ? of unknownfile: call to core_component::classloader()
+* line 58 of /mod/bigbluebuttonbn/view.php: call to spl_autoload_call()
+
+[25-Nov-2020 20:15:46 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
+[25-Nov-2020 20:15:46 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
+[25-Nov-2020 20:17:26 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 169
+[25-Nov-2020 20:18:00 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
+[25-Nov-2020 20:18:00 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
+[25-Nov-2020 20:19:13 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
+[25-Nov-2020 20:19:13 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
+[25-Nov-2020 20:51:40 Europe/Berlin] PHP Notice:  Undefined variable: BBBSERVER_INDEX in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 2217
+[25-Nov-2020 20:51:40 Europe/Berlin] PHP Notice:  Undefined index:  in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 2217
+[25-Nov-2020 20:51:44 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
+[25-Nov-2020 20:51:45 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
+[25-Nov-2020 20:52:27 Europe/Berlin] PHP Notice:  Undefined variable: BBBSERVER_INDEX in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 2217
+[25-Nov-2020 20:52:27 Europe/Berlin] PHP Notice:  Undefined index:  in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 2217
+[25-Nov-2020 20:59:23 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
+[25-Nov-2020 20:59:23 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
+[25-Nov-2020 21:01:13 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
+[25-Nov-2020 21:01:13 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
+[25-Nov-2020 21:02:05 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
+[25-Nov-2020 21:02:05 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
+[25-Nov-2020 21:02:21 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
+[25-Nov-2020 21:02:21 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225

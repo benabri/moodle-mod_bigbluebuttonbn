@@ -46,6 +46,7 @@ class validator {
     public static function section_general_shown() {
         global $CFG;
         return (!isset($CFG->bigbluebuttonbn['server_url']) ||
+                !isset($CFG->bigbluebuttonbn['server_url_record']) ||
                 !isset($CFG->bigbluebuttonbn['shared_secret']));
     }
 

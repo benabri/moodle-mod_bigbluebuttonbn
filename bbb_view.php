@@ -28,6 +28,7 @@ require_once(dirname(__FILE__).'/locallib.php');
 
 global $SESSION;
 //global $DB; //benabri
+global $BBBSERVER_INDEX;
 
 $action = required_param('action', PARAM_TEXT);
 $id = optional_param('id', 0, PARAM_INT);
@@ -51,7 +52,7 @@ $course = $bbbviewinstance['course'];
 $bigbluebuttonbn = $bbbviewinstance['bigbluebuttonbn'];
 $context = context_module::instance($cm->id);
 
-$alt = (int)($course->id) % 2;
+$GLOBALS['BBBSERVER_INDEX'] = (int)($course->id) % count(BBB_SERVERS);
 
 require_login($course, true, $cm);
 

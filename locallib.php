@@ -34,6 +34,14 @@ global $CFG;
 
 require_once(__DIR__ . '/lib.php');
 
+////// benabri /////
+//Ajout d'une variable global qui indique l'index en partant de 0 du serveur (par rapport à l'ordre d'affichage dans la config du plugin)
+$BBBSERVER_INDEX = 0;
+/** @var NB_BBB_SERVER integer à modifier lorsqu'on ajoute des serveurs BBB */
+const NB_BBB_SERVER = 2;
+/** @var NB_BBB_SERVER integer à modifier lorsqu'on ajoute des serveurs BBB */
+const BBB_SERVERS = array('server_url', 'server_url_record');
+
 /** @var BIGBLUEBUTTONBN_UPDATE_CACHE boolean set to true indicates that cache has to be updated */
 const BIGBLUEBUTTONBN_UPDATE_CACHE = true;
 /** @var BIGBLUEBUTTONBN_TYPE_ALL integer set to 0 defines an instance type that inclueds room and recordings */
@@ -1379,7 +1387,8 @@ function bigbluebuttonbn_protect_recording_imported($id, $protect = true) {
  * @return object
  */
 function bigbluebuttonbn_set_config_xml($meetingid, $configxml) {
-    $urldefaultconfig = \mod_bigbluebuttonbn\locallib\config::get('server_url') . 'api/setConfigXML?';
+    global $BBBSERVER_INDEX;
+    $urldefaultconfig = \mod_bigbluebuttonbn\locallib\config::get(BBB_SERVERS[$BBBSERVER_INDEX]) . 'api/setConfigXML?';
     $configxmlparams = bigbluebuttonbn_set_config_xml_params($meetingid, $configxml);
     $xml = bigbluebuttonbn_wrap_xml_load_file(
         $urldefaultconfig,
@@ -1764,8 +1773,9 @@ function bigbluebuttonbn_get_recording_type_text($playbacktype) {
  * @return boolean
  */
 function bigbluebuttonbn_is_valid_resource($url) {
+    global $BBBSERVER_INDEX;
     $urlhost = parse_url($url, PHP_URL_HOST);
-    $serverurlhost = parse_url(\mod_bigbluebuttonbn\locallib\config::get('server_url'), PHP_URL_HOST);
+    $serverurlhost = parse_url(\mod_bigbluebuttonbn\locallib\config::get(BBB_SERVERS[$BBBSERVER_INDEX]), PHP_URL_HOST);
     // Skip validation when the recording URL host is the same as the configured BBB server.
     if ($urlhost == $serverurlhost) {
         return true;
@@ -2203,10 +2213,11 @@ function bigbluebuttonbn_completion_update_state($bigbluebuttonbn, $userid) {
  * @return boolean
  */
 function bigbluebuttonbn_is_bn_server() {
+    global $BBBSERVER_INDEX;
     if (\mod_bigbluebuttonbn\locallib\config::get('bn_server')) {
         return true;
     }
-    $parsedurl = parse_url(\mod_bigbluebuttonbn\locallib\config::get('server_url'));
+    $parsedurl = parse_url(\mod_bigbluebuttonbn\locallib\config::get(BBB_SERVERS[$BBBSERVER_INDEX]));
     if (!isset($parsedurl['host'])) {
         return false;
     }

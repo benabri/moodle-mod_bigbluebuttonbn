@@ -333,10 +333,11 @@ function bigbluebuttonbn_view_ended(&$bbbsession) {
  * @return string
  */
 function bigbluebuttonbn_view_warning_default_server(&$bbbsession) {
+    global $BBBSERVER_INDEX;
     if (!is_siteadmin($bbbsession['userID'])) {
         return '';
     }
-    if (BIGBLUEBUTTONBN_DEFAULT_SERVER_URL != \mod_bigbluebuttonbn\locallib\config::get('server_url')) {
+    if (BIGBLUEBUTTONBN_DEFAULT_SERVER_URL != \mod_bigbluebuttonbn\locallib\config::get(BBB_SERVERS[$BBBSERVER_INDEX])) {
         return '';
     }
     return bigbluebuttonbn_render_warning(get_string('view_warning_default_server', 'bigbluebuttonbn'), 'warning');
