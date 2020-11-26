@@ -105,7 +105,9 @@ class bigbluebutton {
      * @return string
      */
     public static function sanitized_secret($alt=0) {
-        $sanitized_secret = (!$alt) ? trim(config::get('shared_secret')) : trim(config::get('shared_secret_record'));
+        global $BBBSERVER_INDEX;
+        //remplacer ce $secret_ta par un tableau const
+        $sanitized_secret = trim(config::get(BBB_SHARED_SECRETS[$BBBSERVER_INDEX]));
         return $sanitized_secret;
     }
 

@@ -38,9 +38,9 @@ require_once(__DIR__ . '/lib.php');
 //Ajout d'une variable global qui indique l'index en partant de 0 du serveur (par rapport à l'ordre d'affichage dans la config du plugin)
 $BBBSERVER_INDEX = 0;
 /** @var NB_BBB_SERVER integer à modifier lorsqu'on ajoute des serveurs BBB */
-const NB_BBB_SERVER = 2;
-/** @var NB_BBB_SERVER integer à modifier lorsqu'on ajoute des serveurs BBB */
 const BBB_SERVERS = array('server_url', 'server_url_record');
+/** @var BBB_SHARED_SECRETS integer à modifier lorsqu'on ajoute des serveurs BBB */
+const BBB_SHARED_SECRETS = array('shared_secret', 'shared_secret_record');
 
 /** @var BIGBLUEBUTTONBN_UPDATE_CACHE boolean set to true indicates that cache has to be updated */
 const BIGBLUEBUTTONBN_UPDATE_CACHE = true;
@@ -1408,8 +1408,10 @@ function bigbluebuttonbn_set_config_xml($meetingid, $configxml) {
  * @return string
  */
 function bigbluebuttonbn_set_config_xml_params($meetingid, $configxml) {
+    global $BBBSERVER_INDEX;
+
     $params = 'configXML=' . urlencode($configxml) . '&meetingID=' . urlencode($meetingid);
-    $sharedsecret = \mod_bigbluebuttonbn\locallib\config::get('shared_secret');
+    $sharedsecret = \mod_bigbluebuttonbn\locallib\config::get(BBB_SHARED_SECRETS[$BBBSERVER_INDEX]);
     $configxmlparams = $params . '&checksum=' . sha1('setConfigXML' . $params . $sharedsecret);
     return $configxmlparams;
 }

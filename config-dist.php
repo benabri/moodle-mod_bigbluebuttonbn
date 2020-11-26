@@ -63,6 +63,8 @@ global $CFG;
 
 $CFG->bigbluebuttonbn['server_url'] = 'http://test-install.blindsidenetworks.com/bigbluebutton/';
 $CFG->bigbluebuttonbn['shared_secret'] = '8cd8ef52e8e101574e400365b55e11a6';
+$CFG->bigbluebuttonbn['server_url_record'] = 'http://test-install.blindsidenetworks.com/bigbluebutton/';
+$CFG->bigbluebuttonbn['shared_secret_record'] = '8cd8ef52e8e101574e400365b55e11a6';
 
 /*
  * 1.2. CONFIGURATION FOR "RECORDING" FEATURE

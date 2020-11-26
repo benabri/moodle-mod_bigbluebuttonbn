@@ -53,7 +53,9 @@ $bigbluebuttonbn = $bbbviewinstance['bigbluebuttonbn'];
 $context = context_module::instance($cm->id);
 
 $GLOBALS['BBBSERVER_INDEX'] = (int)($course->id) % count(BBB_SERVERS);
-
+//$bigbluebuttonbn->type contient 1 si "sans enregistrement" et "0" sinon
+       
+        
 require_login($course, true, $cm);
 
 $bbbsession = null;
