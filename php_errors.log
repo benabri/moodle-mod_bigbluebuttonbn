@@ -695,3 +695,61 @@ Error code: generalexceptionmessage
 [26-Nov-2020 17:47:24 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 184
 [26-Nov-2020 17:47:24 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 227
 [26-Nov-2020 17:47:35 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 171
+[26-Nov-2020 17:55:54 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
+Error code: mixedtypesqlparam
+* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 1280 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 1298 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 169 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_is_meeting_running()
+
+[26-Nov-2020 17:56:17 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
+Error code: mixedtypesqlparam
+* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 564 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+
+[26-Nov-2020 17:57:00 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
+Error code: mixedtypesqlparam
+* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 564 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+
+[26-Nov-2020 17:58:45 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 564 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+
+[26-Nov-2020 18:04:25 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 1279 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 1297 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 169 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_is_meeting_running()
+
+[26-Nov-2020 18:08:08 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+
+[26-Nov-2020 18:08:13 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+

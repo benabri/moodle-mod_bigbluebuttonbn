@@ -117,8 +117,7 @@ function bigbluebuttonbn_get_join_url(
     $logouturl,
     $configtoken = null,
     $userid = null,
-    $clienttype = BIGBLUEBUTTON_CLIENTTYPE_FLASH,
-    $alt = 0
+    $clienttype = BIGBLUEBUTTON_CLIENTTYPE_FLASH
 ) {
     //    global $DB;
 
@@ -140,7 +139,7 @@ function bigbluebuttonbn_get_join_url(
     if (!is_null($userid)) {
         $data['userID'] = $userid;
     }
-    return \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('join', $data, [], $alt);
+    return \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('join', $data);
 }
 
 /**
@@ -154,14 +153,14 @@ function bigbluebuttonbn_get_join_url(
  * @return array
  */
 //benbri : on rajoute le parametre alt dans la def de la fonction
-function bigbluebuttonbn_get_create_meeting_array($data, $metadata = array(), $pname = null, $purl = null, $alt = 0) {
+function bigbluebuttonbn_get_create_meeting_array($data, $metadata = array(), $pname = null, $purl = null) {
     //global $DB;
     
     //$debug_message = "create_meeting_array:".$alt;
     //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
 
     
-    $createmeetingurl = \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('create', $data, $metadata, $alt);
+    $createmeetingurl = \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('create', $data, $metadata);
     
     //$debug_message = "create_meeting_array APRES meetingurl:".$createmeetingurl;
     //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
@@ -200,7 +199,7 @@ function bigbluebuttonbn_get_meeting_info_array($meetingid) {
     $xml = bigbluebuttonbn_wrap_xml_load_file(
         \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('getMeetingInfo', ['meetingID' => $meetingid])
     );
-    //$debug_message = "meeting_info_array ".\mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('getMeetingInfo', ['meetingID' => $meetingid]);
+    //$debug_message = $xml->startTime;
     //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
 
     if ($xml && $xml->returncode == 'SUCCESS' && empty($xml->messageKey)) {

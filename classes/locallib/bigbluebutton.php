@@ -48,14 +48,14 @@ class bigbluebutton {
      * @return string
      */
     // benabri : on rajoute le parametre alt à la fin comme ca on est certain que les appels à la fonction qui n'incluent pas le parametre ne feront rien planter
-    public static function action_url($action = '', $data = array(), $metadata = array(), $alt = 0) {
-            //global $DB;
+    public static function action_url($action = '', $data = array(), $metadata = array()) {
+            global $DB;
             //piste meilleure : choper cours->id d'apres $data["sessionid"] qui est dans la table mdl_bigbluebuttonbn
             // ou bien passer par la global $COURSE
         //$debug_message = "action_url: action-".$action."---"."alt-".$alt;
         //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
         
-        $baseurl = self::sanitized_url($alt) . $action . '?';
+        $baseurl = self::sanitized_url() . $action . '?';
         //$debug_message = "APRES sanitized_url: action-".$action."---"."alt-".$alt;
         //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
         
@@ -72,7 +72,7 @@ class bigbluebutton {
         );
         $params = http_build_query($data + $metadata, '', '&');
         
-        //$debug_message = "action_url:".$baseurl;
+        //$debug_message = json_encode($baseurl);
         //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
         
         return $baseurl . $params . '&checksum=' . sha1($action . $params . self::sanitized_secret());
@@ -83,7 +83,7 @@ class bigbluebutton {
      *
      * @return string
      */
-    public static function sanitized_url($alt=0) {
+    public static function sanitized_url() {
         global $BBBSERVER_INDEX;
         //global $DB;
         //$debug_message = "sanitized_url: cours-".$COURSE->id;
@@ -104,7 +104,7 @@ class bigbluebutton {
      *
      * @return string
      */
-    public static function sanitized_secret($alt=0) {
+    public static function sanitized_secret() {
         global $BBBSERVER_INDEX;
         //remplacer ce $secret_ta par un tableau const
         $sanitized_secret = trim(config::get(BBB_SHARED_SECRETS[$BBBSERVER_INDEX]));

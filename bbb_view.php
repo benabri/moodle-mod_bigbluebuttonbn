@@ -168,7 +168,7 @@ switch (strtolower($action)) {
         // See if the session is in progress.
         if (bigbluebuttonbn_is_meeting_running($bbbsession['meetingid'])) {
             // Since the meeting is already running, we just join the session.
-            bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin, $alt);
+            bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin);
             break;
         }
         // If user is not administrator nor moderator (user is steudent) and waiting is required.
@@ -184,8 +184,7 @@ switch (strtolower($action)) {
             bigbluebuttonbn_bbb_view_create_meeting_data($bbbsession),
             bigbluebuttonbn_bbb_view_create_meeting_metadata($bbbsession),
             $bbbsession['presentation']['name'],
-            $bbbsession['presentation']['url'], 
-            $alt
+            $bbbsession['presentation']['url']
         );
         if (empty($response)) {
             // The server is unreachable.
@@ -224,7 +223,7 @@ switch (strtolower($action)) {
         $meta = '{"record":'.($bbbsession['record'] ? 'true' : 'false').'}';
         bigbluebuttonbn_log($bbbsession['bigbluebuttonbn'], BIGBLUEBUTTONBN_LOG_EVENT_CREATE, $overrides, $meta);
         // Since the meeting is already running, we just join the session.
-        bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin, $alt);
+        bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin);
         break;
     case 'play':
         $href = bigbluebuttonbn_bbb_view_playback_href($href, $mid, $rid, $rtype);
@@ -418,7 +417,7 @@ function bigbluebuttonbn_bbb_view_create_meeting_metadata(&$bbbsession) {
  * @param object   $bigbluebuttonbn
  * @param integer  $origin
  */
-function bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin = 0, $alt = 0) {
+function bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $origin = 0) {
     //global $DB;
     // Update the cache.
     $meetinginfo = bigbluebuttonbn_get_meeting_info($bbbsession['meetingid'], BIGBLUEBUTTONBN_UPDATE_CACHE);
@@ -436,7 +435,7 @@ function bigbluebuttonbn_bbb_view_join_meeting($bbbsession, $bigbluebuttonbn, $o
     //    $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
         
     $joinurl = bigbluebuttonbn_get_join_url($bbbsession['meetingid'], $bbbsession['username'],
-        $password, $bbbsession['logoutURL'], null, $bbbsession['userID'], $bbbsession['clienttype'], $alt);
+        $password, $bbbsession['logoutURL'], null, $bbbsession['userID'], $bbbsession['clienttype']);
 
 
     //$debug_message = "APRES---"."alt-".$alt;
