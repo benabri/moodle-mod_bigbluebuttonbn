@@ -753,3 +753,87 @@ Error code: invalidqueryparam
 * line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
 * line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
 
+[27-Nov-2020 08:19:57 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+
+[27-Nov-2020 08:20:13 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+
+[27-Nov-2020 08:20:26 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 1279 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 1297 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 169 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_is_meeting_running()
+
+[27-Nov-2020 08:20:30 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+
+[27-Nov-2020 08:21:38 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+
+[27-Nov-2020 08:21:45 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 1279 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 1297 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 169 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_is_meeting_running()
+
+[27-Nov-2020 08:21:56 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+
+[27-Nov-2020 08:23:01 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
+* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+
+[27-Nov-2020 08:47:09 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected '$BBBSERVER_INDEX' (T_VARIABLE), expecting ',' or ';' Debug: 
+Error code: generalexceptionmessage
+* line 113 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
+* line ? of unknownfile: call to core_component::classloader()
+* line 58 of /mod/bigbluebuttonbn/view.php: call to spl_autoload_call()
+
+[27-Nov-2020 09:01:44 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected '$BBBSERVER_INDEX' (T_VARIABLE), expecting ',' or ';' Debug: 
+Error code: generalexceptionmessage
+* line 92 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
+* line ? of unknownfile: call to core_component::classloader()
+* line 58 of /mod/bigbluebuttonbn/view.php: call to spl_autoload_call()
+
+[27-Nov-2020 09:08:46 Europe/Berlin] PHP Notice:  Undefined offset: 3585 in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 101
+[27-Nov-2020 09:08:46 Europe/Berlin] Default exception handler: Impossible de rejoindre la conférence. Vérifiez l'URL du serveur BigBlueButton ET vérifiez que le serveur est actif. Debug: 
+Error code: view_error_unable_join
+* line 494 of /lib/setuplib.php: moodle_exception thrown
+* line 73 of /mod/bigbluebuttonbn/view.php: call to print_error()
+
