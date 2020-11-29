@@ -1,839 +1,232 @@
-[23-Nov-2020 14:06:33 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 138
-[23-Nov-2020 14:30:12 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected ';', expecting ')' Debug: 
-Error code: generalexceptionmessage
-* line 144 of /mod/bigbluebuttonbn/locallib.php: ParseError thrown
-
-[23-Nov-2020 14:44:04 Europe/Berlin] Default exception handler: Erreur de programmation détectée. Ceci doit être corrigé par un programmeur : PHP catchable fatal error Debug: Object of class stdClass could not be converted to string
-Error code: codingerror
-* line 424 of /lib/setuplib.php: coding_exception thrown
-* line 51 of /mod/bigbluebuttonbn/bbb_view.php: call to default_error_handler()
-
-[23-Nov-2020 14:45:06 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 173
-[23-Nov-2020 14:46:03 Europe/Berlin] Default exception handler: Erreur de programmation détectée. Ceci doit être corrigé par un programmeur : PHP catchable fatal error Debug: Object of class stdClass could not be converted to string
-Error code: codingerror
-* line 424 of /lib/setuplib.php: coding_exception thrown
-* line 171 of /mod/bigbluebuttonbn/bbb_view.php: call to default_error_handler()
-
-[23-Nov-2020 14:46:46 Europe/Berlin] Default exception handler: Erreur de programmation détectée. Ceci doit être corrigé par un programmeur : PHP catchable fatal error Debug: Object of class stdClass could not be converted to string
-Error code: codingerror
-* line 424 of /lib/setuplib.php: coding_exception thrown
-* line 171 of /mod/bigbluebuttonbn/bbb_view.php: call to default_error_handler()
-
-[23-Nov-2020 14:46:56 Europe/Berlin] Default exception handler: Erreur de programmation détectée. Ceci doit être corrigé par un programmeur : PHP catchable fatal error Debug: Object of class stdClass could not be converted to string
-Error code: codingerror
-* line 424 of /lib/setuplib.php: coding_exception thrown
-* line 171 of /mod/bigbluebuttonbn/bbb_view.php: call to default_error_handler()
-
-[23-Nov-2020 14:47:35 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 173
-[23-Nov-2020 14:50:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 172
-[23-Nov-2020 14:50:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 172
-[23-Nov-2020 14:50:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 172
-[23-Nov-2020 14:51:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 172
-[23-Nov-2020 14:53:18 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 174
-[23-Nov-2020 14:54:40 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 174
-[23-Nov-2020 14:55:38 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 174
-[23-Nov-2020 15:01:16 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected 'return' (T_RETURN) Debug: 
-Error code: generalexceptionmessage
-* line 3502 of /mod/bigbluebuttonbn/locallib.php: ParseError thrown
-
-[23-Nov-2020 15:18:59 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1237
-[23-Nov-2020 15:18:59 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1239
-[23-Nov-2020 15:18:59 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:20:12 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1237
-[23-Nov-2020 15:20:12 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1239
-[23-Nov-2020 15:20:12 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:22:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1237
-[23-Nov-2020 15:22:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1239
-[23-Nov-2020 15:22:28 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:23:12 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 175
-[23-Nov-2020 15:24:12 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1237
-[23-Nov-2020 15:24:12 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1239
-[23-Nov-2020 15:24:12 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:24:39 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1237
-[23-Nov-2020 15:24:39 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1239
-[23-Nov-2020 15:24:40 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:25:18 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1237
-[23-Nov-2020 15:25:18 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1239
-[23-Nov-2020 15:25:18 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:27:59 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1237
-[23-Nov-2020 15:27:59 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1239
-[23-Nov-2020 15:27:59 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:30:21 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 175
-[23-Nov-2020 15:34:19 Europe/Berlin] PHP Notice:  Undefined variable: alto in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 171
-[23-Nov-2020 15:34:19 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 175
-[23-Nov-2020 15:35:25 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 175
-[23-Nov-2020 15:38:16 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1222
-[23-Nov-2020 15:38:16 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1224
-[23-Nov-2020 15:38:16 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:41:12 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1222
-[23-Nov-2020 15:41:12 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1224
-[23-Nov-2020 15:41:13 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:50:00 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1226
-[23-Nov-2020 15:50:00 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1228
-[23-Nov-2020 15:50:00 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:52:23 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1226
-[23-Nov-2020 15:52:23 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1228
-[23-Nov-2020 15:52:23 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:55:54 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1226
-[23-Nov-2020 15:55:54 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1228
-[23-Nov-2020 15:55:55 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 15:58:01 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1226
-[23-Nov-2020 15:58:01 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1228
-[23-Nov-2020 15:58:01 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 17:52:48 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1231
-[23-Nov-2020 17:52:48 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1233
-[23-Nov-2020 17:52:49 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 17:54:45 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1234
-[23-Nov-2020 17:54:45 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1236
-[23-Nov-2020 17:54:45 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 17:56:11 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
+[27-Nov-2020 12:56:31 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 2 paramètres attendus, actuellement 0 paramètres. Debug: 
+Error code: invalidqueryparam
+* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
 * line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 151 of /mod/bigbluebuttonbn/locallib.php: call to mysqli_native_moodle_database->execute()
-* line 175 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_create_meeting_array()
+* line 59 of /mod/bigbluebuttonbn/bbb_view.php: call to mysqli_native_moodle_database->execute()
 
-[23-Nov-2020 17:58:45 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1234
-[23-Nov-2020 17:58:45 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1236
-[23-Nov-2020 17:58:45 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 17:59:17 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 151 of /mod/bigbluebuttonbn/locallib.php: call to mysqli_native_moodle_database->execute()
-* line 175 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_create_meeting_array()
-
-[23-Nov-2020 18:01:23 Europe/Berlin] PHP Notice:  Undefined variable: DB in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 53
-[23-Nov-2020 18:01:23 Europe/Berlin] Default exception handler: Exception : Call to a member function execute() on null Debug: 
+[27-Nov-2020 13:33:22 Europe/Berlin] PHP Notice:  Undefined variable: DB in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1280
+[27-Nov-2020 13:33:22 Europe/Berlin] Default exception handler: Exception : Call to a member function execute() on null Debug: 
 Error code: generalexceptionmessage
-* line 53 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
-* line 1261 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 1279 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_meeting_info()
-* line 160 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_is_meeting_running()
-
-[23-Nov-2020 18:01:39 Europe/Berlin] PHP Notice:  Undefined variable: DB in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 53
-[23-Nov-2020 18:01:39 Europe/Berlin] Default exception handler: Exception : Call to a member function execute() on null Debug: 
-Error code: generalexceptionmessage
-* line 53 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
-* line 1261 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 1280 of /mod/bigbluebuttonbn/locallib.php: Error thrown
 * line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
 * line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
 
-[23-Nov-2020 18:02:05 Europe/Berlin] PHP Notice:  Undefined variable: DB in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 53
-[23-Nov-2020 18:02:05 Europe/Berlin] Default exception handler: Exception : Call to a member function execute() on null Debug: 
+[27-Nov-2020 13:33:43 Europe/Berlin] PHP Notice:  Undefined variable: DB in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1280
+[27-Nov-2020 13:33:43 Europe/Berlin] Default exception handler: Exception : Call to a member function execute() on null Debug: 
 Error code: generalexceptionmessage
-* line 53 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
-* line 545 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+* line 1280 of /mod/bigbluebuttonbn/locallib.php: Error thrown
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
 
-[23-Nov-2020 18:04:22 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 151 of /mod/bigbluebuttonbn/locallib.php: call to mysqli_native_moodle_database->execute()
-* line 175 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_create_meeting_array()
+[27-Nov-2020 13:33:46 Europe/Berlin] PHP Notice:  Undefined variable: DB in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1280
+[27-Nov-2020 13:33:46 Europe/Berlin] Default exception handler: Exception : Call to a member function execute() on null Debug: 
+Error code: generalexceptionmessage
+* line 1280 of /mod/bigbluebuttonbn/locallib.php: Error thrown
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
 
-[23-Nov-2020 18:07:35 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 151 of /mod/bigbluebuttonbn/locallib.php: call to mysqli_native_moodle_database->execute()
-* line 175 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_create_meeting_array()
+[27-Nov-2020 13:59:29 Europe/Berlin] PHP Notice:  Undefined variable: COURSE in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/brokerlib.php on line 43
+[27-Nov-2020 13:59:29 Europe/Berlin] PHP Notice:  Trying to get property 'id' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/brokerlib.php on line 43
+[27-Nov-2020 13:59:36 Europe/Berlin] PHP Notice:  Undefined variable: COURSE in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/brokerlib.php on line 43
+[27-Nov-2020 13:59:36 Europe/Berlin] PHP Notice:  Trying to get property 'id' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/brokerlib.php on line 43
+[27-Nov-2020 14:28:06 Europe/Berlin] PHP Notice:  Undefined variable: GLOBAL in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 55
+[27-Nov-2020 14:28:06 Europe/Berlin] PHP Notice:  Trying to get property 'id' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 55
+[27-Nov-2020 14:28:15 Europe/Berlin] PHP Notice:  Undefined variable: GLOBAL in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 55
+[27-Nov-2020 14:28:15 Europe/Berlin] PHP Notice:  Trying to get property 'id' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 55
+[27-Nov-2020 14:29:50 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 55 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
 
-[23-Nov-2020 18:11:30 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
+[27-Nov-2020 14:30:52 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 55 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:31:06 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 55 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:33:41 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 55 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:36:08 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected 'array_key_exists' (T_STRING), expecting '(' Debug: 
+Error code: generalexceptionmessage
+* line 55 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
+* line ? of unknownfile: call to core_component::classloader()
+* line 74 of /mod/bigbluebuttonbn/view.php: call to spl_autoload_call()
+
+[27-Nov-2020 14:36:28 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST) Debug: 
+Error code: generalexceptionmessage
+* line 58 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
+* line ? of unknownfile: call to core_component::classloader()
+* line 74 of /mod/bigbluebuttonbn/view.php: call to spl_autoload_call()
+
+[27-Nov-2020 14:36:36 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST) Debug: 
+Error code: generalexceptionmessage
+* line 58 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
+* line ? of unknownfile: call to core_component::classloader()
+* line 74 of /mod/bigbluebuttonbn/view.php: call to spl_autoload_call()
+
+[27-Nov-2020 14:37:00 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST) Debug: 
+Error code: generalexceptionmessage
+* line 58 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
+* line ? of unknownfile: call to core_component::classloader()
+* line 74 of /mod/bigbluebuttonbn/view.php: call to spl_autoload_call()
+
+[27-Nov-2020 14:37:30 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 56 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:37:33 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 56 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:40:29 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 56 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:40:54 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 56 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:41:45 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 56 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:49:19 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 59 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:49:43 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 59 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:50:13 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 59 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:50:53 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 59 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:51:28 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 59 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:51:42 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 59 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:53:58 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 59 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:54:01 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 59 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:54:07 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 59 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:55:15 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 60 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:55:18 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 60 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:55:54 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 60 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:56:26 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 60 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 14:56:45 Europe/Berlin] Default exception handler: Exception : Call to undefined function mod_bigbluebuttonbn\locallib\split() Debug: 
+Error code: generalexceptionmessage
+* line 60 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
+* line 1283 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 41 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_get_meeting_info()
+* line 90 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_info()
+
+[27-Nov-2020 15:09:40 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
 Error code: mixedtypesqlparam
 * line 920 of /lib/dml/moodle_database.php: dml_exception thrown
 * line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
 * line 68 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 547 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
+* line 163 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
+* line 191 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_create_meeting_array()
 
-[23-Nov-2020 18:11:39 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 68 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 547 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[23-Nov-2020 18:11:52 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 68 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 547 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[23-Nov-2020 18:13:16 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 69 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 547 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[23-Nov-2020 18:14:26 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 58 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 547 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[23-Nov-2020 18:15:30 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 55 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 150 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 175 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_create_meeting_array()
-
-[23-Nov-2020 18:19:32 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1236
-[23-Nov-2020 18:19:32 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1238
-[23-Nov-2020 18:19:32 Europe/Berlin] Default exception handler: Une erreur est survenue dans BigBlueButton. <p class="alert alert-danger">The meeting ID that you supplied did not match any existing meetings</p>
- Debug: [{"message":"The meeting ID that you supplied did not match any existing meetings","key":"invalidMeetingIdentifier"}]
-Error code: view_error_bigbluebutton
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 455 of /mod/bigbluebuttonbn/bbb_view.php: call to print_error()
-* line 120 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_errors()
-
-[23-Nov-2020 18:39:22 Europe/Berlin] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 65
-[23-Nov-2020 18:39:22 Europe/Berlin] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 65
-[23-Nov-2020 18:39:22 Europe/Berlin] PHP Warning:  array_combine() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 61
-[23-Nov-2020 18:39:22 Europe/Berlin] Default exception handler: Exception : Unsupported operand types Debug: 
-Error code: generalexceptionmessage
-* line 69 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
-* line 130 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 427 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_join_url()
-* line 220 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_join_meeting()
-
-[23-Nov-2020 18:43:54 Europe/Berlin] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 65
-[23-Nov-2020 18:43:54 Europe/Berlin] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 65
-[23-Nov-2020 18:43:54 Europe/Berlin] PHP Warning:  array_combine() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 61
-[23-Nov-2020 18:43:54 Europe/Berlin] Default exception handler: Exception : Unsupported operand types Debug: 
-Error code: generalexceptionmessage
-* line 69 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
-* line 130 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 427 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_join_url()
-* line 220 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_join_meeting()
-
-[23-Nov-2020 18:51:27 Europe/Berlin] PHP Notice:  Undefined variable: DB in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 428
-[23-Nov-2020 18:51:27 Europe/Berlin] Default exception handler: Exception : Call to a member function execute() on null Debug: 
-Error code: generalexceptionmessage
-* line 428 of /mod/bigbluebuttonbn/bbb_view.php: Error thrown
-* line 220 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_join_meeting()
-
-[23-Nov-2020 18:52:24 Europe/Berlin] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 65
-[23-Nov-2020 18:52:24 Europe/Berlin] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 65
-[23-Nov-2020 18:52:24 Europe/Berlin] PHP Warning:  array_combine() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 61
-[23-Nov-2020 18:52:24 Europe/Berlin] Default exception handler: Exception : Unsupported operand types Debug: 
-Error code: generalexceptionmessage
-* line 69 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
-* line 130 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 431 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_join_url()
-* line 220 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_join_meeting()
-
-[23-Nov-2020 18:54:34 Europe/Berlin] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 65
-[23-Nov-2020 18:54:34 Europe/Berlin] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 65
-[23-Nov-2020 18:54:34 Europe/Berlin] PHP Warning:  array_combine() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 61
-[23-Nov-2020 18:54:34 Europe/Berlin] Default exception handler: Exception : Unsupported operand types Debug: 
-Error code: generalexceptionmessage
-* line 69 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
-* line 135 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 431 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_join_url()
-* line 220 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_join_meeting()
-
-[23-Nov-2020 18:58:42 Europe/Berlin] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 67
-[23-Nov-2020 18:58:42 Europe/Berlin] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 67
-[23-Nov-2020 18:58:42 Europe/Berlin] PHP Warning:  array_combine() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 63
-[23-Nov-2020 18:58:42 Europe/Berlin] Default exception handler: Exception : Unsupported operand types Debug: 
-Error code: generalexceptionmessage
-* line 71 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
-* line 135 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 431 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_join_url()
-* line 220 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_join_meeting()
-
-[23-Nov-2020 19:06:49 Europe/Berlin] PHP Warning:  array_keys() expects parameter 1 to be array, int given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 67
-[23-Nov-2020 19:06:49 Europe/Berlin] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 67
-[23-Nov-2020 19:06:49 Europe/Berlin] PHP Warning:  array_combine() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 63
-[23-Nov-2020 19:06:49 Europe/Berlin] Default exception handler: Exception : Unsupported operand types Debug: 
-Error code: generalexceptionmessage
-* line 71 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
-* line 135 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 431 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_join_url()
-* line 220 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_join_meeting()
-
-[23-Nov-2020 19:07:42 Europe/Berlin] PHP Warning:  array_keys() expects parameter 1 to be array, int given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 67
-[23-Nov-2020 19:07:42 Europe/Berlin] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 67
-[23-Nov-2020 19:07:42 Europe/Berlin] PHP Warning:  array_combine() expects parameter 1 to be array, null given in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 63
-[23-Nov-2020 19:07:42 Europe/Berlin] Default exception handler: Exception : Unsupported operand types Debug: 
-Error code: generalexceptionmessage
-* line 71 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: Error thrown
-* line 135 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 431 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_join_url()
-* line 220 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_bbb_view_join_meeting()
-
-[23-Nov-2020 19:08:36 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1242
-[23-Nov-2020 19:08:36 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1244
-[23-Nov-2020 19:09:56 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1242
-[23-Nov-2020 19:09:56 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1244
-[23-Nov-2020 19:11:31 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1242
-[23-Nov-2020 19:11:31 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1244
-[23-Nov-2020 19:20:25 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 74 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 553 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[23-Nov-2020 19:21:05 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 74 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 553 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[23-Nov-2020 19:22:30 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 74 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 553 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[23-Nov-2020 19:23:45 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1242
-[23-Nov-2020 19:23:45 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1244
-[23-Nov-2020 19:26:09 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[23-Nov-2020 19:26:09 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[23-Nov-2020 19:29:01 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[23-Nov-2020 19:29:01 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[23-Nov-2020 19:30:18 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[23-Nov-2020 19:30:18 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[23-Nov-2020 20:04:42 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[23-Nov-2020 20:04:42 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[23-Nov-2020 21:31:29 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[23-Nov-2020 21:31:29 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[23-Nov-2020 21:55:37 Europe/Berlin] Default exception handler: Erreur d'écriture vers la base de données Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5e27aa93524c3445eadc81303db4f520c4d2ecfb-4097-12'')' at line 1
-INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, 'DATAmeetingID='5e27aa93524c3445eadc81303db4f520c4d2ecfb-4097-12'')
-[array (
-)]
-Error code: dmlwriteexception
-* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
-* line 1141 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
-* line 67 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 1272 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 1290 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_meeting_info()
-* line 162 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_is_meeting_running()
-
-[23-Nov-2020 21:55:52 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_ajax.php on line 138
-[23-Nov-2020 21:57:00 Europe/Berlin] Default exception handler: Erreur d'écriture vers la base de données Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5e27aa93524c3445eadc81303db4f520c4d2ecfb-4097-12'')' at line 1
-INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, 'DATAmeetingID='5e27aa93524c3445eadc81303db4f520c4d2ecfb-4097-12'')
-[array (
-)]
-Error code: dmlwriteexception
-* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
-* line 1141 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
-* line 67 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 297 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 282 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array_fetch_page()
-* line 240 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array_fetch()
-* line 2434 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array()
-* line 2065 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings()
-* line 249 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebutton_get_recordings_for_table_view()
-* line 165 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebuttonbn_view_render_recordings()
-* line 132 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebuttonbn_view_render_recording_section()
-* line 113 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_view_render()
-
-[23-Nov-2020 21:57:05 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_ajax.php on line 138
-[23-Nov-2020 21:57:09 Europe/Berlin] Default exception handler: Erreur d'écriture vers la base de données Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5e27aa93524c3445eadc81303db4f520c4d2ecfb-4097-12'')' at line 1
-INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, 'DATAmeetingID='5e27aa93524c3445eadc81303db4f520c4d2ecfb-4097-12'')
-[array (
-)]
-Error code: dmlwriteexception
-* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
-* line 1141 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
-* line 67 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 297 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 282 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array_fetch_page()
-* line 240 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array_fetch()
-* line 2434 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array()
-* line 2065 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings()
-* line 249 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebutton_get_recordings_for_table_view()
-* line 165 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebuttonbn_view_render_recordings()
-* line 132 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebuttonbn_view_render_recording_section()
-* line 113 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_view_render()
-
-[23-Nov-2020 21:57:09 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_ajax.php on line 138
-[23-Nov-2020 21:57:16 Europe/Berlin] Default exception handler: Erreur d'écriture vers la base de données Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5e27aa93524c3445eadc81303db4f520c4d2ecfb-4097-12'')' at line 1
-INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, 'DATAmeetingID='5e27aa93524c3445eadc81303db4f520c4d2ecfb-4097-12'')
-[array (
-)]
-Error code: dmlwriteexception
-* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
-* line 1141 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
-* line 67 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 297 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 282 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array_fetch_page()
-* line 240 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array_fetch()
-* line 2434 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array()
-* line 2065 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings()
-* line 249 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebutton_get_recordings_for_table_view()
-* line 165 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebuttonbn_view_render_recordings()
-* line 132 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebuttonbn_view_render_recording_section()
-* line 113 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_view_render()
-
-[23-Nov-2020 21:57:16 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_ajax.php on line 138
-[23-Nov-2020 21:58:44 Europe/Berlin] Default exception handler: Erreur d'écriture vers la base de données Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5e27aa93524c3445eadc81303db4f520c4d2ecfb-4097-12'')' at line 1
-INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, 'DATAmeetingID='5e27aa93524c3445eadc81303db4f520c4d2ecfb-4097-12'')
-[array (
-)]
-Error code: dmlwriteexception
-* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
-* line 1141 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
-* line 67 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 297 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 282 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array_fetch_page()
-* line 240 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array_fetch()
-* line 2434 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings_array()
-* line 2065 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_recordings()
-* line 249 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebutton_get_recordings_for_table_view()
-* line 165 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebuttonbn_view_render_recordings()
-* line 132 of /mod/bigbluebuttonbn/viewlib.php: call to bigbluebuttonbn_view_render_recording_section()
-* line 113 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_view_render()
-
-[23-Nov-2020 21:58:49 Europe/Berlin] PHP Warning:  Header may not contain more than a single header, new line detected in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_ajax.php on line 138
-[23-Nov-2020 22:00:29 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[23-Nov-2020 22:00:29 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[23-Nov-2020 22:03:00 Europe/Berlin] PHP Notice:  Undefined index: logoutURL in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 62
-[23-Nov-2020 22:03:00 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 63 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 156 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 177 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_create_meeting_array()
-
-[23-Nov-2020 22:03:15 Europe/Berlin] PHP Notice:  Undefined index: logoutURL in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 62
-[23-Nov-2020 22:07:11 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 63 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 156 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 177 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_get_create_meeting_array()
-
-[24-Nov-2020 08:29:33 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 08:29:33 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 08:36:17 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 08:36:17 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 08:36:26 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 08:36:26 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 08:46:10 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 08:46:10 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 09:08:00 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 09:08:00 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 15:29:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:29:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 15:29:35 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:29:35 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 15:32:25 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:32:25 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 15:32:59 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:32:59 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 15:35:37 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:35:47 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:36:33 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:39:02 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:40:25 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:40:25 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:41:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:42:43 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:43:15 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:43:33 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:43:33 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 15:45:49 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
-[24-Nov-2020 15:45:50 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
-[24-Nov-2020 15:45:50 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
-[24-Nov-2020 15:45:52 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
-[24-Nov-2020 15:46:00 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
-[24-Nov-2020 15:46:06 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:46:07 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
-[24-Nov-2020 15:46:16 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
-[24-Nov-2020 15:46:17 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 141
-[24-Nov-2020 15:47:10 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[24-Nov-2020 15:47:10 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[24-Nov-2020 15:53:18 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:11:38 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:11:38 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 08:19:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:19:27 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 08:24:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
-[25-Nov-2020 08:24:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
-[25-Nov-2020 08:25:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
-[25-Nov-2020 08:26:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
-[25-Nov-2020 08:26:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
-[25-Nov-2020 08:26:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
-[25-Nov-2020 08:26:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
-[25-Nov-2020 08:27:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
-[25-Nov-2020 08:27:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 145
-[25-Nov-2020 08:29:18 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:29:18 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 08:30:15 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:30:15 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 08:30:50 Europe/Berlin] Default exception handler: Erreur de programmation détectée. Ceci doit être corrigé par un programmeur : PHP catchable fatal error Debug: Object of class stdClass could not be converted to string
-Error code: codingerror
-* line 424 of /lib/setuplib.php: coding_exception thrown
-* line 143 of /mod/bigbluebuttonbn/bbb_view.php: call to default_error_handler()
-
-[25-Nov-2020 08:32:01 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:32:01 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 08:37:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 149
-[25-Nov-2020 08:38:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'origin' (T_STRING), expecting ')' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 149
-[25-Nov-2020 08:38:56 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:38:56 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 08:39:22 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:39:22 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 08:44:23 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:44:23 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 08:47:45 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:47:45 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 08:48:19 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 147
-[25-Nov-2020 08:48:19 Europe/Berlin] PHP Notice:  Trying to get property 'origin' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 147
-[25-Nov-2020 08:49:30 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:49:30 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 08:56:58 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 08:56:58 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 16:53:47 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 16:53:47 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 17:00:51 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 17:00:51 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 17:11:08 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$participantCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1245
-[25-Nov-2020 17:11:08 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$moderatorCount in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 1247
-[25-Nov-2020 20:11:32 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected 'const' (T_CONST), expecting ',' or ';' Debug: 
-Error code: generalexceptionmessage
-* line 44 of /mod/bigbluebuttonbn/locallib.php: ParseError thrown
-
-[25-Nov-2020 20:12:37 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected '$serverurl' (T_VARIABLE) Debug: 
-Error code: generalexceptionmessage
-* line 92 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
-* line ? of unknownfile: call to core_component::classloader()
-* line 545 of /mod/bigbluebuttonbn/locallib.php: call to spl_autoload_call()
-* line 123 of /mod/bigbluebuttonbn/brokerlib.php: call to bigbluebuttonbn_end_meeting()
-* line 95 of /mod/bigbluebuttonbn/bbb_ajax.php: call to bigbluebuttonbn_broker_meeting_end()
-
-[25-Nov-2020 20:13:13 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected '$serverurl' (T_VARIABLE) Debug: 
-Error code: generalexceptionmessage
-* line 92 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
-* line ? of unknownfile: call to core_component::classloader()
-* line 58 of /mod/bigbluebuttonbn/view.php: call to spl_autoload_call()
-
-[25-Nov-2020 20:15:46 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[25-Nov-2020 20:15:46 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[25-Nov-2020 20:17:26 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 169
-[25-Nov-2020 20:18:00 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[25-Nov-2020 20:18:00 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[25-Nov-2020 20:19:13 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[25-Nov-2020 20:19:13 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[25-Nov-2020 20:51:40 Europe/Berlin] PHP Notice:  Undefined variable: BBBSERVER_INDEX in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 2217
-[25-Nov-2020 20:51:40 Europe/Berlin] PHP Notice:  Undefined index:  in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 2217
-[25-Nov-2020 20:51:44 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[25-Nov-2020 20:51:45 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[25-Nov-2020 20:52:27 Europe/Berlin] PHP Notice:  Undefined variable: BBBSERVER_INDEX in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 2217
-[25-Nov-2020 20:52:27 Europe/Berlin] PHP Notice:  Undefined index:  in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/locallib.php on line 2217
-[25-Nov-2020 20:59:23 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[25-Nov-2020 20:59:23 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[25-Nov-2020 21:01:13 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[25-Nov-2020 21:01:13 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[25-Nov-2020 21:02:05 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[25-Nov-2020 21:02:05 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[25-Nov-2020 21:02:21 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[25-Nov-2020 21:02:21 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[26-Nov-2020 09:49:08 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[26-Nov-2020 09:49:08 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[26-Nov-2020 09:53:18 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[26-Nov-2020 09:53:18 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[26-Nov-2020 09:55:04 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[26-Nov-2020 09:55:04 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[26-Nov-2020 10:02:07 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[26-Nov-2020 10:02:07 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[26-Nov-2020 10:05:38 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[26-Nov-2020 10:05:38 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[26-Nov-2020 10:07:30 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 169
-[26-Nov-2020 10:26:20 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 144
-[26-Nov-2020 10:26:20 Europe/Berlin] PHP Notice:  Trying to get property 'origin' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 144
-[26-Nov-2020 10:26:40 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[26-Nov-2020 10:26:40 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[26-Nov-2020 10:28:04 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 169
-[26-Nov-2020 10:42:09 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 182
-[26-Nov-2020 10:42:09 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 225
-[26-Nov-2020 10:44:40 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 185
-[26-Nov-2020 10:44:40 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 228
-[26-Nov-2020 10:46:00 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 172
-[26-Nov-2020 10:47:31 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 185
-[26-Nov-2020 10:47:31 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 228
-[26-Nov-2020 10:48:15 Europe/Berlin] Default exception handler: Exception : Cannot use object of type stdClass as array Debug: 
-Error code: generalexceptionmessage
-* line 57 of /mod/bigbluebuttonbn/bbb_view.php: Error thrown
-
-[26-Nov-2020 10:48:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected ']', expecting ')' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 57
-[26-Nov-2020 10:48:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected ']', expecting ')' in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 57
-[26-Nov-2020 10:49:50 Europe/Berlin] Default exception handler: Exception : Cannot use object of type stdClass as array Debug: 
-Error code: generalexceptionmessage
-* line 57 of /mod/bigbluebuttonbn/bbb_view.php: Error thrown
-
-[26-Nov-2020 10:50:30 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 185
-[26-Nov-2020 10:50:30 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 228
-[26-Nov-2020 10:50:58 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 172
-[26-Nov-2020 10:51:37 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 185
-[26-Nov-2020 10:51:37 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 228
-[26-Nov-2020 11:04:58 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 184
-[26-Nov-2020 11:04:58 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 227
-[26-Nov-2020 17:42:25 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 184
-[26-Nov-2020 17:42:25 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 227
-[26-Nov-2020 17:43:50 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 171
-[26-Nov-2020 17:44:24 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 184
-[26-Nov-2020 17:44:24 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 227
-[26-Nov-2020 17:46:13 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 171
-[26-Nov-2020 17:47:24 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 184
-[26-Nov-2020 17:47:24 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 227
-[26-Nov-2020 17:47:35 Europe/Berlin] PHP Notice:  Undefined variable: alt in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 171
-[26-Nov-2020 17:55:54 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 1280 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 1298 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_meeting_info()
-* line 169 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_is_meeting_running()
-
-[26-Nov-2020 17:56:17 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 564 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[26-Nov-2020 17:57:00 Europe/Berlin] Default exception handler: Erreur : différents types de paramètres dans la requête SQL ! Debug: 
-Error code: mixedtypesqlparam
-* line 920 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 564 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[26-Nov-2020 17:58:45 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 564 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[26-Nov-2020 18:04:25 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 1279 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 1297 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_meeting_info()
-* line 169 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_is_meeting_running()
-
-[26-Nov-2020 18:08:08 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[26-Nov-2020 18:08:13 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[27-Nov-2020 08:19:57 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[27-Nov-2020 08:20:13 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[27-Nov-2020 08:20:26 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 1279 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 1297 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_meeting_info()
-* line 169 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_is_meeting_running()
-
-[27-Nov-2020 08:20:30 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[27-Nov-2020 08:21:38 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[27-Nov-2020 08:21:45 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 1279 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 1297 of /mod/bigbluebuttonbn/locallib.php: call to bigbluebuttonbn_get_meeting_info()
-* line 169 of /mod/bigbluebuttonbn/bbb_view.php: call to bigbluebuttonbn_is_meeting_running()
-
-[27-Nov-2020 08:21:56 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[27-Nov-2020 08:23:01 Europe/Berlin] Default exception handler: Erreur : nombre de paramètres incorrect dans la requête. 1 paramètres attendus, actuellement 0 paramètres. Debug: 
-Error code: invalidqueryparam
-* line 942 of /lib/dml/moodle_database.php: dml_exception thrown
-* line 1131 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
-* line 76 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: call to mysqli_native_moodle_database->execute()
-* line 563 of /mod/bigbluebuttonbn/locallib.php: call to mod_bigbluebuttonbn\locallib\bigbluebutton::action_url()
-* line 61 of /mod/bigbluebuttonbn/view.php: call to bigbluebuttonbn_get_server_version()
-
-[27-Nov-2020 08:47:09 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected '$BBBSERVER_INDEX' (T_VARIABLE), expecting ',' or ';' Debug: 
-Error code: generalexceptionmessage
-* line 113 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
-* line ? of unknownfile: call to core_component::classloader()
-* line 58 of /mod/bigbluebuttonbn/view.php: call to spl_autoload_call()
-
-[27-Nov-2020 09:01:44 Europe/Berlin] Default exception handler: Exception : syntax error, unexpected '$BBBSERVER_INDEX' (T_VARIABLE), expecting ',' or ';' Debug: 
-Error code: generalexceptionmessage
-* line 92 of /mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php: ParseError thrown
-* line ? of unknownfile: call to core_component::classloader()
-* line 58 of /mod/bigbluebuttonbn/view.php: call to spl_autoload_call()
-
-[27-Nov-2020 09:08:46 Europe/Berlin] PHP Notice:  Undefined offset: 3585 in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/classes/locallib/bigbluebutton.php on line 101
-[27-Nov-2020 09:08:46 Europe/Berlin] Default exception handler: Impossible de rejoindre la conférence. Vérifiez l'URL du serveur BigBlueButton ET vérifiez que le serveur est actif. Debug: 
-Error code: view_error_unable_join
-* line 494 of /lib/setuplib.php: moodle_exception thrown
-* line 73 of /mod/bigbluebuttonbn/view.php: call to print_error()
-
+[29-Nov-2020 09:14:43 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 150
+[29-Nov-2020 09:14:43 Europe/Berlin] PHP Notice:  Trying to get property 'origin' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 150
+[29-Nov-2020 09:15:34 Europe/Berlin] PHP Notice:  Trying to get property 'meta' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 150
+[29-Nov-2020 09:15:34 Europe/Berlin] PHP Notice:  Trying to get property 'origin' of non-object in /var/data/www/moodle_joujou/mod/bigbluebuttonbn/bbb_view.php on line 150

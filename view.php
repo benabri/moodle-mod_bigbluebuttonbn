@@ -44,6 +44,22 @@ $cm = $viewinstance['cm'];
 $course = $viewinstance['course'];
 $bigbluebuttonbn = $viewinstance['bigbluebuttonbn'];
 
+$GLOBALS['BBBSERVER_INDEX'] = (int)($course->id) % count(BBB_SERVERS);
+
+$debug_message = "CIfromview ".$course->id." YYY";
+$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+//global $DB;
+//
+//
+//$debug_message = "BBBSERVER_INDEX : ".$GLOBALS['BBBSERVER_INDEX']. "  BBB_SERVERS : ".json_encode(BBB_SERVERS);
+//$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+//
+//$debug_message = "CM".json_encode(print_r($cm, true));
+//$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+//
+//$debug_message = "COURSE".json_encode(print_r($course, true));
+//$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+
 require_login($course, true, $cm);
 
 // In locallib.

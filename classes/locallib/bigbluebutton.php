@@ -52,9 +52,29 @@ class bigbluebutton {
         global $DB;
         global $COURSE;
         
-        $baseurl = self::sanitized_url($COURSE->id) . $action . '?';
-        //$debug_message = "APRES sanitized_url: action-".$action."---"."alt-".$alt;
+        $courseid = $COURSE->id;
+
+        if ($courseid == 1){
+            if (array_key_exists("meetingID", $data)){ 
+                $courseid = array_values(array_slice(explode("-", $data["meetingID"], -1) , -1))[0];
+                //$courseidprinted = print_r(explode("-", $data["meetingID"], -1) , true);
+            }
+        }
+        $debug_message = 
+             "action : ".$action."  "
+            ."COURSE->id : ".$courseid."  "
+            ."data : ".json_encode($data)
+        ;
         //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+
+        /*if ($action == ''){
+            $baseurl = self::sanitized_url($courseid) . $action . '?';
+        }
+        else {
+            $baseurl = self::sanitized_url(0) . $action . '?';
+        }*/
+        $baseurl = self::sanitized_url($courseid) . $action . '?';
+        
         
         $metadata = array_combine(
             array_map(
@@ -76,19 +96,21 @@ class bigbluebutton {
      * @return string
      */
     public static function sanitized_url($courseid) {
-        global $BBBSERVER_INDEX;
-        if (!$courseid) {
-            $serverurl = trim(config::get(BBB_SERVERS[$BBBSERVER_INDEX]));
-        }
-        else {
-            $serverurl = trim(config::get(BBB_SERVERS[$courseid % count(BBB_SERVERS)]));
-        }
+        
+        $serverurl = trim(config::get(BBB_SERVERS[$courseid % count(BBB_SERVERS)]));
+        
         if (substr($serverurl, -1) == '/') {
             $serverurl = rtrim($serverurl, '/');
         }
         if (substr($serverurl, -4) == '/api') {
             $serverurl = rtrim($serverurl, '/api');
         }
+        global $DB;
+
+
+        $debug_message = $serverurl;
+        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+
         return $serverurl . '/api/';
     }
 
@@ -97,14 +119,9 @@ class bigbluebutton {
      *
      * @return string
      */
-    public static function sanitized_secret($courseid) {
+    public static function sanitized_secret() {
         global $BBBSERVER_INDEX;
-        if (!$courseid) {
-            $sanitized_secret = trim(config::get(BBB_SHARED_SECRETS[$BBBSERVER_INDEX]));
-        }
-        else {
-            $sanitized_secret = trim(config::get(BBB_SHARED_SECRETS[$courseid % count(BBB_SHARED_SECRETS)]));
-        }
+        $sanitized_secret = trim(config::get(BBB_SHARED_SECRETS[$BBBSERVER_INDEX]));       
         
         return $sanitized_secret;
     }

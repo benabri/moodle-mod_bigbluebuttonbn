@@ -1265,7 +1265,7 @@ function bigbluebuttonbn_participant_joined($meetingid, $ismoderator) {
  *
  * @return array
  */
-function bigbluebuttonbn_get_meeting_info($meetingid, $updatecache = false) {
+function bigbluebuttonbn_get_meeting_info($meetingid, $updatecache = true) {
     $cachettl = (int) \mod_bigbluebuttonbn\locallib\config::get('waitformoderator_cache_ttl');
     $cache = cache::make_from_params(cache_store::MODE_APPLICATION, 'mod_bigbluebuttonbn', 'meetings_cache');
     $result = $cache->get($meetingid);
@@ -1275,6 +1275,10 @@ function bigbluebuttonbn_get_meeting_info($meetingid, $updatecache = false) {
         return (array) json_decode($result['meeting_info']);
     }
     // Ping again and refresh the cache.
+    global $COURSE;
+    global $DB;
+    $debug_message = "bigbluebuttonbn_get_meeting_info : ".$COURSE->id;
+    $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
     $meetinginfo = (array) bigbluebuttonbn_wrap_xml_load_file(
         \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('getMeetingInfo', ['meetingID' => $meetingid])
     );
