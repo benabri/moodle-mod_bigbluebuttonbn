@@ -54,7 +54,11 @@ $context = context_module::instance($cm->id);
 
 $GLOBALS['BBBSERVER_INDEX'] = (int)($course->id) % count(BBB_SERVERS);
 //$bigbluebuttonbn->type contient 1 si "sans enregistrement" et "0" sinon
-       
+global $DB;
+//$debug_message = json_encode($cm);
+$debug_message = "CIfrombbview ".$course->id." XXX";
+$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+
         
 require_login($course, true, $cm);
 
@@ -142,9 +146,6 @@ switch (strtolower($action)) {
         $accesses = $DB->get_records_select('bigbluebuttonbn_logs', $select, $params, 'id ASC', 'id, meta', 1);
         $lastaccess = end($accesses);
         
-        //benabri : l'origine est toujours la meme pour nous donc on la met à 0 si on trouve rien dans bigbluebuttonbn_logs
-        $lastaccess_origin = !is_null($lastaccess) ? json_decode($lastaccess->meta)->origin : 0;
-          
 
         // If the user acceded from Timeline it should be redirected to the Dashboard.
         if (isset($lastaccess_origin) && $lastaccess_origin == BIGBLUEBUTTON_ORIGIN_TIMELINE) {
