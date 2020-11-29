@@ -1275,10 +1275,10 @@ function bigbluebuttonbn_get_meeting_info($meetingid, $updatecache = true) {
         return (array) json_decode($result['meeting_info']);
     }
     // Ping again and refresh the cache.
-    global $COURSE;
-    global $DB;
-    $debug_message = "bigbluebuttonbn_get_meeting_info : ".$COURSE->id;
-    $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+    //global $COURSE;
+    //global $DB;
+    //$debug_message = "bigbluebuttonbn_get_meeting_info : ".$COURSE->id;
+    //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
     $meetinginfo = (array) bigbluebuttonbn_wrap_xml_load_file(
         \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('getMeetingInfo', ['meetingID' => $meetingid])
     );

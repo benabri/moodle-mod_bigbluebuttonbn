@@ -54,10 +54,10 @@ $context = context_module::instance($cm->id);
 
 $GLOBALS['BBBSERVER_INDEX'] = (int)($course->id) % count(BBB_SERVERS);
 //$bigbluebuttonbn->type contient 1 si "sans enregistrement" et "0" sinon
-global $DB;
+//global $DB;
 //$debug_message = json_encode($cm);
-$debug_message = "CIfrombbview ".$course->id." XXX";
-$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+//$debug_message = "CIfrombbview ".$course->id." XXX";
+//$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
 
         
 require_login($course, true, $cm);
