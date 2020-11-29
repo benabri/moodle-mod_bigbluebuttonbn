@@ -46,8 +46,8 @@ $bigbluebuttonbn = $viewinstance['bigbluebuttonbn'];
 
 $GLOBALS['BBBSERVER_INDEX'] = (int)($course->id) % count(BBB_SERVERS);
 
-$debug_message = "CIfromview ".$course->id." YYY";
-$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+//$debug_message = "CIfromview ".$course->id." YYY";
+//$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
 //global $DB;
 //
 //
