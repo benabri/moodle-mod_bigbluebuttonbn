@@ -59,20 +59,22 @@ class bigbluebutton {
                 $courseid = array_values(array_slice(explode("-", $data["meetingID"], -1) , -1))[0];
                 //$courseidprinted = print_r(explode("-", $data["meetingID"], -1) , true);
             }
-        }
-        /*$debug_message = 
-             "action : ".$action."  "
-            ."COURSE->id : ".$courseid."  "
-            ."data : ".json_encode($data)
-        ;*/
-        //$DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+            if (array_key_exists("idx", $data)){ 
+                $courseid = array_values(array_slice(explode("-", $data["idx"], -1) , -1))[0];
+            }
 
-        /*if ($action == ''){
-            $baseurl = self::sanitized_url($courseid) . $action . '?';
         }
-        else {
-            $baseurl = self::sanitized_url(0) . $action . '?';
-        }*/
+        $data_debug = (count($data)) ? $data : array("rien");
+        $metadata_debug = (count($metadata)) ? $metadata : array("rien");
+        
+        $debug_message = 
+             "action -> ".$action."  "
+            ."courseid -> ".$courseid."  "
+            //."data -> ".json_encode($data_debug).  ****provoque une erreur de SQL
+            ."metadata -> ".json_encode($metadata_debug)
+        ;
+        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+       
         $baseurl = self::sanitized_url($courseid) . $action . '?';
         
         

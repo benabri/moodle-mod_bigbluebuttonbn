@@ -484,11 +484,14 @@ function bigbluebuttonbn_recording_build_sorter($a, $b) {
  *
  * @return boolean
  */
-function bigbluebuttonbn_delete_recordings($recordids) {
+function bigbluebuttonbn_delete_recordings($recordids, $idx) {
     $ids = explode(',', $recordids);
     foreach ($ids as $id) {
         $xml = bigbluebuttonbn_wrap_xml_load_file(
-            \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('deleteRecordings', ['recordID' => $id])
+            \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url(
+                'deleteRecordings', 
+                ['recordID' => $id,
+                 'idx' => $idx])
         );
         if ($xml && $xml->returncode != 'SUCCESS') {
             return false;
@@ -503,11 +506,15 @@ function bigbluebuttonbn_delete_recordings($recordids) {
  * @param string $recordids
  * @param string $publish
  */
-function bigbluebuttonbn_publish_recordings($recordids, $publish = 'true') {
+function bigbluebuttonbn_publish_recordings($recordids, $publish = 'true', $idx) {
     $ids = explode(',', $recordids);
     foreach ($ids as $id) {
         $xml = bigbluebuttonbn_wrap_xml_load_file(
-            \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('publishRecordings', ['recordID' => $id, 'publish' => $publish])
+            \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url(
+                'publishRecordings', 
+                ['recordID' => $id, 
+                'publish' => $publish, 
+                'idx' =>$idx])
         );
         if ($xml && $xml->returncode != 'SUCCESS') {
             return false;
@@ -522,11 +529,13 @@ function bigbluebuttonbn_publish_recordings($recordids, $publish = 'true') {
  * @param string $recordids
  * @param array $params ['key'=>param_key, 'value']
  */
-function bigbluebuttonbn_update_recordings($recordids, $params) {
+function bigbluebuttonbn_update_recordings($recordids, $params, $idx) {
     $ids = explode(',', $recordids);
     foreach ($ids as $id) {
         $xml = bigbluebuttonbn_wrap_xml_load_file(
-            \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url('updateRecordings', ['recordID' => $id] + (array) $params)
+            \mod_bigbluebuttonbn\locallib\bigbluebutton::action_url(
+                'updateRecordings', 
+                ['recordID' => $id, 'idx' => $idx] + (array) $params)
         );
         if ($xml && $xml->returncode != 'SUCCESS') {
             return false;

@@ -352,7 +352,8 @@ function bigbluebuttonbn_broker_recording_action_publish($params, $recordings) {
     return array(
         'status' => bigbluebuttonbn_publish_recordings(
             $params['id'],
-            'true'
+            'true',
+            $params['idx']
         )
     );
 }
@@ -396,7 +397,8 @@ function bigbluebuttonbn_broker_recording_action_unprotect($params, $recordings)
     return array(
         'status' => bigbluebuttonbn_update_recordings(
             $params['id'],
-            array('protect' => 'false')
+            array('protect' => 'false'),
+            $params['idx']
         )
     );
 }
@@ -435,7 +437,8 @@ function bigbluebuttonbn_broker_recording_action_unpublish($params, $recordings)
     return array(
         'status' => bigbluebuttonbn_publish_recordings(
             $params['id'],
-            'false'
+            'false',
+            $params['idx']
         )
     );
 }
@@ -474,7 +477,8 @@ function bigbluebuttonbn_broker_recording_action_protect($params, $recordings) {
     return array(
         'status' => bigbluebuttonbn_update_recordings(
             $params['id'],
-            array('protect' => 'true')
+            array('protect' => 'true'),
+            $params['idx']
         )
     );
 }
@@ -508,7 +512,7 @@ function bigbluebuttonbn_broker_recording_action_delete($params, $recordings) {
     }
     // Second: Execute the actual delete.
     return array(
-        'status' => bigbluebuttonbn_delete_recordings($params['id'])
+        'status' => bigbluebuttonbn_delete_recordings($params['id'], $params['idx'])
     );
 }
 
@@ -537,7 +541,8 @@ function bigbluebuttonbn_broker_recording_action_edit($params, $recordings) {
     return array(
         'status' => bigbluebuttonbn_update_recordings(
             $params['id'],
-            json_decode($params['meta'])
+            json_decode($params['meta']),
+            $params['idx']
         )
     );
 }
