@@ -64,6 +64,7 @@ class bigbluebutton {
             }
 
         }
+        /*
         $data_debug = (count($data)) ? $data : array("rien");
         $metadata_debug = (count($metadata)) ? $metadata : array("rien");
         
@@ -73,7 +74,7 @@ class bigbluebutton {
             //."data -> ".json_encode($data_debug).  ****provoque une erreur de SQL
             ."metadata -> ".json_encode($metadata_debug)
         ;
-        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");
+        $DB->execute("INSERT INTO `mdl_benabri_debugger` (`id`, `message`) VALUES (NULL, '".$debug_message."')");*/
        
         $baseurl = self::sanitized_url($courseid) . $action . '?';
         
