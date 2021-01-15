@@ -1,0 +1,1 @@
+[02-Dec-2020 10:47:44 Europe/Berlin] PHP Warning:  unlink(/var/data/depots/moodle/cache/core_component.php): No such file or directory in /var/data/www/moodle_joujou/lib/classes/component.php on line 310
